@@ -7,7 +7,6 @@ const Widget = styled.div`
   background-color: ${({ theme }) => theme.colors.mainBg};
   border-radius: 4px;
   overflow: hidden;
-
   h1, h2, h3 {
     font-size: 16px;
     font-weight: 700;
@@ -58,7 +57,7 @@ Widget.Topic = styled.a`
   border-radius: ${({ theme }) => theme.borderRadius};
   transition: .3s;
   display: block;
-
+  
   &:hover,
   &:focus {
     opacity: .5;
