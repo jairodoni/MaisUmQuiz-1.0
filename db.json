@@ -1,5 +1,6 @@
 {
-  "bg": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+  "bg": "https://www.hitalent.co/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMmJDQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1452099b706ad7d079f7a3a4dd5d702ebeeae45f/HiTalent.png",
+  "bg02": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
   "title": "Quiz JavaScript #AluraQuiz",
   "description": "Um quiz rápido sobre o mundo do JavaScript",
   "questions": [
@@ -44,6 +45,20 @@
     }
   ],
   "external": [
+    "https://strangerquiz.felipeoes.vercel.app/",
+    "https://flash-quiz-next.davidlpc1.vercel.app/",
+    "https://doctor-who-quiz.emanuelpna.vercel.app/",
+    "https://brunoquiz.brunosaibert.vercel.app/",
+    "https://harry-potter-quiz.lucianoweslen11.vercel.app",
+    "https://lotr-quiz.filipe1309.vercel.app/",
+    "https://quiz-cavaleiro-zodiaco.vercel.app/",
+    "https://quiz-games.gabrielwolf-dev.vercel.app/",
+    "https://aluraquiz-base.renatofrancisco.vercel.app/",
+    "https://alura-quiz-ferro-e-fogo.fpzero.vercel.app/",
+    "https://imersao-react-next-alura.samuel-mota.vercel.app/",
+    "https://aluraquiz-coffee.leonardot07.vercel.app/",
+    "https://aluraquiz-halloween.lucaskuhn.vercel.app/",
+    "https://you-dont-know-js-quiz.vercel.app/",
     "https://aluraquiz-css.omariosouto.vercel.app/",
     "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
   ],
