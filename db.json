@@ -1,46 +1,75 @@
 {
-  "bg": "https://www.hitalent.co/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMmJDQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1452099b706ad7d079f7a3a4dd5d702ebeeae45f/HiTalent.png",
+  "bg": "https://wallpaperaccess.com/download/react-js-3949081",
   "bg02": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
-  "title": "Quiz JavaScript #AluraQuiz",
+  "bg03": "https://www.hitalent.co/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMmJDQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1452099b706ad7d079f7a3a4dd5d702ebeeae45f/HiTalent.png",
+  "title": "Quiz React #AluraQuiz",
   "description": "Um quiz rápido sobre o mundo do JavaScript",
   "questions": [
     {
       "image": "https://media4.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif?cid=ecf05e47lodsygi3nvd2dvy3kdbj9t2nieg34vy5fr5uhbm2&rid=giphy.gif",
-      "title": "Qual a diferença entre = , == e === ?",
+      "title": "O que é React?",
       "description": "Pergunta fácil em!",
-      "answer": 1,
+      "answer": 0,
       "alternatives": [
-        "São a mesma coisa",
-        "O = significa atribuição de valor. Já == verifica a igualdade do valor, enquanto === verifica valor e tipo de variável."
+        "Biblioteca",
+        "Ferramenta",
+        "Framework",
+        "Linguagem"
+      ]
+    },
+    {
+      "image": "https://media4.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif?cid=ecf05e47lodsygi3nvd2dvy3kdbj9t2nieg34vy5fr5uhbm2&rid=giphy.gif",
+      "title": "ReactJS e React Native são a mesma coisa?",
+      "description": "E agora? Você sabe?",
+      "answer": 0,
+      "alternatives": [
+        "Sim",
+        "Não"
       ]
     },
     {
       "image": "https://media.giphy.com/media/Ie2Hs3A0uJRtK/giphy.gif",
-      "title": "Que tipos de dados são suportados em JavaScript?",
+      "title": "Qual a proposta de React?",
       "description": "E agora? Você sabe?",
+      "answer": 2,
+      "alternatives": [
+        "SPA(Sinple Position Away)",
+        "SPA(Single Patern App)",
+        "SPA(Single Page Aplication)",
+        "SPA(SOAP Patern Aplication)"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
+      "title": "A Sintaxe utilizada no desenvolvimento em React é?",
+      "answer": 1,
+      "alternatives": [
+        "JSX(JSON XML)",
+        "JSX(JavaScrip XML)",
+        "JSX(Java XML)",
+        "JSX(Jam XML)"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
+      "title": "Que recurso usamos para controlar as rotas das paginas?",
       "answer": 0,
       "alternatives": [
-        "Number, String, Undefined, Null e Bool.",
-        "Int, String, Undefined, Null e Bool."
+        "react router down",
+        "javascrit router",
+        "router page",
+        "router fetch"
       ]
     },
     {
       "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
-      "title": "Qual a diferença de window e global?",
-      "answer": 1,
+      "title": "Material UI é?",
+      "answer": 2,
       "alternatives": [
-        "São a mesma coisa",
-        "window é o escopo global no browser, e global no node"
-      ]
-    },
-    {
-      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
-      "title": "Qual a forma antiga de trabalhar com AJAX na Web?",
-      "answer": 1,
-      "alternatives": [
-        "JSONHttpRequest",
-        "XMLHttpRequest",
-        "fetch"
+        "Uma ferramenta de inserção de dados",
+        "Uma versão do bootstrap",
+        "Uma biblioteca de componentes react",
+        "Uma biblioteca de controle de cores"
       ]
     }
   ],
@@ -66,6 +95,7 @@
     "colors": {
       "primary": "#222222",
       "secondary": "#e89c3f",
+      "github": "#2dcfff",
       "mainBg": "#213f4e",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",
