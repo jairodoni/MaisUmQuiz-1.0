@@ -6,7 +6,7 @@
   "description": "Um quiz rápido sobre o mundo do JavaScript",
   "questions": [
     {
-      "image": "https://media4.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif?cid=ecf05e47lodsygi3nvd2dvy3kdbj9t2nieg34vy5fr5uhbm2&rid=giphy.gif",
+      "image": "https://media3.giphy.com/media/iFmw13LV1hHhViPPWz/source.gif",
       "title": "O que é React?",
       "description": "Pergunta fácil em!",
       "answer": 0,
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "image": "https://media4.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif?cid=ecf05e47lodsygi3nvd2dvy3kdbj9t2nieg34vy5fr5uhbm2&rid=giphy.gif",
+      "image": "https://steamuserimages-a.akamaihd.net/ugc/909045930377493237/BEB26F0DEC34EF4F06205E5C923FC278D2FBE220/",
       "title": "ReactJS e React Native são a mesma coisa?",
       "description": "E agora? Você sabe?",
       "answer": 0,
@@ -28,7 +28,31 @@
       ]
     },
     {
-      "image": "https://media.giphy.com/media/Ie2Hs3A0uJRtK/giphy.gif",
+      "image": "https://cdn.dicionariopopular.com/imagens/giphy-1.gif",
+      "title": "React Native trabalha em que ambiente?",
+      "description": "E agora? Você sabe?",
+      "answer": 1,
+      "alternatives": [
+        "Web (Browser)",
+        "Mobile (Smartphone)",
+        "Web (Browser) e Mobile (Smartphone)",
+        "Automação"
+      ]
+    },
+    {
+      "image": "https://i.pinimg.com/originals/11/df/58/11df58e8d717e9358c502a66156ed374.gif",
+      "title": "ReactJS trabalha em que ambiente?",
+      "description": "E agora? Você sabe?",
+      "answer": 0,
+      "alternatives": [
+        "Web (Browser)",
+        "Mobile (Smartphone)",
+        "Web (Browser) e Mobile (Smartphone)",
+        "Automação"
+      ]
+    },
+    {
+      "image": "http://www.riclan.com.br/wp-content/uploads/2017/12/tenor.gif",
       "title": "Qual a proposta de React?",
       "description": "E agora? Você sabe?",
       "answer": 2,
@@ -40,7 +64,31 @@
       ]
     },
     {
-      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
+      "image": "https://steamuserimages-a.akamaihd.net/ugc/909045930377493237/BEB26F0DEC34EF4F06205E5C923FC278D2FBE220/",
+      "title": "O React trabalha com ?",
+      "description": "E agora? Você sabe?",
+      "answer": 0,
+      "alternatives": [
+        "Componentização de elementos",
+        "Renderização de paginas inteiras",
+        "Somente desenvolvimento mobile",
+        "Somente desenvolvimento web"
+      ]
+    },
+    {
+      "image": "https://www.humordido.net/wp-content/uploads/2018/08/ue-meme.gif",
+      "title": "Quais os estagios da vida util de um componente?",
+      "description": "E agora? Você sabe?",
+      "answer": 0,
+      "alternatives": [
+        "Inicialização , Inserção de Dados e Destruição",
+        "Inicialização , Atualizações de Estados e Renderização",
+        "Inicialização , Renderização e Destruição",
+        "Inicialização , Atualizações de Estados e Destruição"
+      ]
+    },
+    {
+      "image": "https://img.ibxk.com.br/2020/07/08/08183627871446.gif",
       "title": "A Sintaxe utilizada no desenvolvimento em React é?",
       "answer": 1,
       "alternatives": [
@@ -51,25 +99,26 @@
       ]
     },
     {
-      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
+      "image": "https://1.bp.blogspot.com/-v5CUkH3ziOE/XY0hKdhN-oI/AAAAAAAACAk/kwdl2E86v5EBK1G4o8_TkhNBGYWuKxpJgCEwYBhgL/s1600/tombou.gif",
       "title": "Que recurso usamos para controlar as rotas das paginas?",
       "answer": 0,
       "alternatives": [
-        "react router down",
+        "react router",
         "javascrit router",
         "router page",
         "router fetch"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
-      "title": "Material UI é?",
+      "image": "https://thumbs.gfycat.com/WaterySarcasticCollardlizard-size_restricted.gif",
+      "title": "Para que server o Redux?",
+      "description": "Essa é pra fecha!!!",
       "answer": 2,
       "alternatives": [
-        "Uma ferramenta de inserção de dados",
-        "Uma versão do bootstrap",
-        "Uma biblioteca de componentes react",
-        "Uma biblioteca de controle de cores"
+        "Serve para auxiliar o desenvolvedor na sintaxe JSX",
+        "Serve para renderizar paginas do react",
+        "Serve para inserir dados no banco de dados",
+        "Serve para o armazenamento de estados de aplicações JavaScript"
       ]
     }
   ],
@@ -87,7 +136,7 @@
     "https://imersao-react-next-alura.samuel-mota.vercel.app/",
     "https://aluraquiz-coffee.leonardot07.vercel.app/",
     "https://aluraquiz-halloween.lucaskuhn.vercel.app/",
-    "https://you-dont-know-js-quiz.vercel.app/",
+    "https://you-dont-know-js-quiz.zlincon.vercel.app/",
     "https://aluraquiz-css.omariosouto.vercel.app/",
     "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
   ],

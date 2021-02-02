@@ -13,7 +13,16 @@ function LoadingWidget() {
     <Widget>
       <Widget.Header>Carregando...</Widget.Header>
 
-      <Widget.Content>[Desafio Loading]</Widget.Content>
+      <Widget.Content>
+      <motion.div
+        whileHover={{ scale: 1.2, rotate: 90 }}
+        whileTap={{
+          scale: 0.8,
+          rotate: -90,
+          borderRadius: "100%"
+        }}
+      />
+      </Widget.Content>
     </Widget>
   );
 }

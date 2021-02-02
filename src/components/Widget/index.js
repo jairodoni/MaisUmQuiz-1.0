@@ -45,6 +45,19 @@ Widget.Content = styled.div`
     padding: 0;
   }
 `;
+Widget.Load = styled.div`
+  width: 16px;
+  height: 16px;
+  margin:40px auto;
+  border-radius: 50%;
+  background: #fff;
+`;
+// Widget.Load = styled.div`
+//   width: 50px;
+//   height: 50px;
+//   background: #ffffff;
+//   border-radius: 30px;
+// `;
 
 Widget.Topic = styled.a`
   outline: 0;

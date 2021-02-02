@@ -6,13 +6,36 @@ import QuizBackground from "../../src/components/QuizBackground";
 import QuizContainer from "../../src/components/QuizContainer";
 import AlternativeForm from "../../src/components/AlternativeForm";
 import Button from "../../src/components/Button";
+import { motion } from 'framer-motion';
+
+const loaderVariants = {
+  animationOne: {
+    x: [-120, 120],
+    
+    transition: {
+      yoyo: Infinity,
+      duration: 1
+    },
+    y:{
+      yoyo: Infinity,
+      duration: 1
+    }
+  }
+}
 
 function LoadingWidget() {
   return (
     <Widget>
       <Widget.Header>Carregando...</Widget.Header>
 
-      <Widget.Content>[Desafio Loading]</Widget.Content>
+      <Widget.Content 
+        as={motion.div}
+        variants={loaderVariants}
+        animate="animationOne"
+      >
+       <Widget.Load/>
+       
+      </Widget.Content>
     </Widget>
   );
 }
