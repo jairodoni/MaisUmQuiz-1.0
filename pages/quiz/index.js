@@ -193,7 +193,7 @@ export default function QuizPage() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
-        <QuizLogo />
+        <QuizLogo fill="#18DAF5" />
         {screenState === screenStates.QUIZ && (
           <QuestionWidget
             setScreenState={setScreenState}

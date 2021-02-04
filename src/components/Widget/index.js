@@ -33,6 +33,7 @@ Widget.Header = styled.header`
 `;
 
 Widget.Content = styled.div`
+  scroll-behavior: smooth;
   padding: 24px 32px 32px 32px;
   & > *:first-child {
     margin-top: 0;
@@ -43,6 +44,51 @@ Widget.Content = styled.div`
   ul {
     list-style: none;
     padding: 0;
+  }
+`;
+Widget.QuizList = styled.div`
+  scroll-behavior: smooth;
+  padding: 10px;
+  & > *:first-child {
+    margin-top: 0;
+  }
+  & > *:last-child {
+    margin-bottom: 0;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  .quizes {
+    
+    padding: 10px;
+    max-height: 300px;
+    height: 100vh;
+    overflow: 'scroll';
+    overflow-y: scroll; //vertical
+    overflow-x: hidden; //horizontal
+    
+        /* width */
+    ::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 2px rgba(999,999,999,0.4); 
+      border-radius: 10px;
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #c9c9c9; 
+      border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #c4c4c4; 
+    }
   }
 `;
 Widget.Load = styled.div`

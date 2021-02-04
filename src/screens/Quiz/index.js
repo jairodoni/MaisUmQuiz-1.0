@@ -7,21 +7,35 @@ import QuizContainer from "../../components/QuizContainer";
 import AlternativeForm from "../../components/AlternativeForm";
 import Button from "../../components/Button";
 import BackLinkArrow from "../../components/BackLinkArrow";
+import { motion } from 'framer-motion';
+
+const loaderVariants = {
+  animationOne: {
+    x: [-120, 120],
+    
+    transition: {
+      yoyo: Infinity,
+      duration: 1
+    },
+    y:{
+      yoyo: Infinity,
+      duration: 1
+    }
+  }
+}
 
 function LoadingWidget() {
   return (
     <Widget>
       <Widget.Header>Carregando...</Widget.Header>
 
-      <Widget.Content>
-      <motion.div
-        whileHover={{ scale: 1.2, rotate: 90 }}
-        whileTap={{
-          scale: 0.8,
-          rotate: -90,
-          borderRadius: "100%"
-        }}
-      />
+      <Widget.Content 
+        as={motion.div}
+        variants={loaderVariants}
+        animate="animationOne"
+      >
+       <Widget.Load/>
+       
       </Widget.Content>
     </Widget>
   );
@@ -184,7 +198,7 @@ export default function QuizPage({ externalQuestions, externalBg }) {
   return (
     <QuizBackground backgroundImage={bg}>
       <QuizContainer>
-        <QuizLogo />
+        <QuizLogo fill="#f1f1f1" />
         {screenState === screenStates.QUIZ && (
           <QuestionWidget
             setScreenState={setScreenState}
