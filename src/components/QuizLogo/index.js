@@ -46,6 +46,8 @@ const QuizLogo = styled(Logo)`
   margin-top: -15px;
   /* border: 1px solid red; */
   @media screen and (max-width: 500px) {
+    max-height:150px;
+    max-width:300px;
     margin: 0;
   }
 `;
