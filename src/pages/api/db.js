@@ -1,5 +1,5 @@
 
-import db from '../../db.json';
+import db from '../../../db.json';
 
 export default function dbHandler(request, response) {
   if (request.method === 'OPTIONS') {
