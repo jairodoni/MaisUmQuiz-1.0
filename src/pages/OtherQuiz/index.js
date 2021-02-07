@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useRouter } from 'next/router';
 import Widget from "../../components/Widget";
 import LoadingWidget from "../../components/LoadingWidget";
 import QuizLogo from "../../components/QuizLogo";
@@ -10,6 +11,10 @@ import BackLinkArrow from "../../components/BackLinkArrow";
 
 
 function ResultWidget({ results }) {
+  const router = useRouter();
+  function navigateToHome(){
+    router.push(`/`);
+  }
   return (
     <Widget>
       <Widget.Header>
@@ -34,6 +39,7 @@ function ResultWidget({ results }) {
             ))
           }
         </ul>
+        <Button onClick={navigateToHome} type="button">Voltar</Button>
       </Widget.Content>
     </Widget>
   );
@@ -97,12 +103,18 @@ function QuestionWidget({ screenState, setScreenState, addResult, outQuestions  
             const alternativeId = `alternative_${alternativeIndex}`;
             const alternativeStatus = isCorrect ? 'SUCCESS' : 'ERROR';
             const isSelected = selectedAlternative === alternativeIndex;
+            let optionCorrect = false;
+
+            if(alternativeIndex === question.answer && isQuestionSubmited){
+              optionCorrect = true;
+            }
             return (
               <Widget.Topic 
                 as="label" 
                 key={alternativeId}
                 htmlFor={alternativeId}
                 data-selected={isSelected}
+                data-correct={optionCorrect}
                 data-status={isQuestionSubmited && alternativeStatus}
               >
                 <input 

@@ -137,7 +137,7 @@ function QuestionWidget({ screenState, setScreenState, addResult }) {
             return (
               <Widget.Topic 
                 as="label" 
-                key={alternativeIndex}
+                key={alternativeId}
                 htmlFor={alternativeId}
                 data-selected={isSelected}
                 data-correct={optionCorrect}
