@@ -11,18 +11,18 @@ import Button from "../../components/Button";
 
 function ResultWidget({ results }) {
   const router = useRouter();
-  const hits = results.filter((x) => x).length;
-  let gif = db.result01.image;
+  const points = results.filter((x) => x).length;
+  let gif = db.result04.image;
   let description = db.result01.description;
-  if(hits > 0 && hits < 6){
+  if(points > 0 && points < 6){
     gif = db.result02.image;
     description = db.result02.description;
   }
-  if(hits >= 6 && hits <= 9){
+  if(points >= 6 && points <= 9){
     gif = db.result03.image;
     description = db.result03.description;
   }
-  if(hits === 10){
+  if(points === 10){
     gif = db.result04.image;
     description = db.result04.description;
   }
@@ -47,7 +47,7 @@ function ResultWidget({ results }) {
       />
       <Widget.Content>
         <p>
-          Você acertou {hits} perguntas
+          Você acertou {points} perguntas
         </p>
         <p>
           {description}
@@ -83,8 +83,11 @@ function QuestionWidget({ screenState, setScreenState, addResult }) {
   function handleSubmit(e) {
     e.preventDefault();
     setIsQuestionSubmited(true);
-    addResult(isCorrect);
+    
     setTimeout(() => {
+      addResult(isCorrect);
+      setIsQuestionSubmited(false);
+      setSelectedAlternative(undefined);
 
       const nextQuestion = questionIndex + 1;
       if (nextQuestion < totalQuestions) {
@@ -92,10 +95,7 @@ function QuestionWidget({ screenState, setScreenState, addResult }) {
       } else {
         setScreenState(screenStates.RESULT);
       }
-      setIsQuestionSubmited(false);
-      setSelectedAlternative(undefined);
-
-    }, 2000);
+    }, 2 * 1000);
   }
 
   return (
@@ -144,8 +144,9 @@ function QuestionWidget({ screenState, setScreenState, addResult }) {
                 data-status={isQuestionSubmited && alternativeStatus}
               >
                 <input 
+                  style={{display: 'none'}}
                   id={alternativeId} 
-                  name={questionId} 
+                  name={questionId}
                   onChange={() => setSelectedAlternative(alternativeIndex)}
                   type="radio" 
                 />

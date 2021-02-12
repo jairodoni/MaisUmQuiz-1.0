@@ -23,7 +23,8 @@ export async function getServerSideProps(context) {
     })
     .then((respostaConvertidaEmObjeto) => respostaConvertidaEmObjeto )
     // .catch((err) => {
-    //   console.error(err);
+    //   let error = status(400).send({ error: 'Erro loading' });
+    //   return error;
     // });
     
     return {
