@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![Npm_Badge][npm_version_badge] ![Node_Badge][node_version_badge] ![React_Badge][web_react_badge] ![Next_Badge][web_next_badge] ![GitHub][repository_license_badge]
+![Npm_Badge][npm_version_badge] ![Node_Badge][node_version_badge] ![React_Badge][web_react_badge] ![GitHub][repository_license_badge]
 <br>
 <!-- <p align="center">
   <img alt="bethehero" src=".github/techflix.png" width="100%">
@@ -106,9 +106,9 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 [server_nodejs_badge]: https://img.shields.io/badge/server-nodejs-important
 
-[web_next_badge]: https://nextjs.org/
 
 <!-- Techs -->
+[web_next_badge]: https://nextjs.org/
 
 [react]: https://reactjs.org/
 
