@@ -1,9 +1,9 @@
 {
-  "bg": "https://wallpaperaccess.com/download/react-js-3949081",
-  "bg02": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
-  "bg03": "https://www.hitalent.co/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMmJDQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1452099b706ad7d079f7a3a4dd5d702ebeeae45f/HiTalent.png",
-  "title": "#QuizReactS",
-  "description": "Um quiz rápido sobre React",
+  "bg": "https://www.siliconera.com/wp-content/uploads/2021/02/Genshin-Impact-Wallpapers-QiQi-Venti-01.jpg",
+  "bg03": "https://wallpapercave.com/wp/wp7486978.jpg",
+  "bg02": "https://wallpapercave.com/wp/wp7487029.jpg",
+  "title": "#Genshin Impact",
+  "description": "Um quiz rápido sobre Genshin Impact!!!",
   "questions": [
     {
       "image": "https://media3.giphy.com/media/iFmw13LV1hHhViPPWz/source.gif",
@@ -154,9 +154,9 @@
   "theme": {
     "colors": {
       "primary": "#222222",
-      "secondary": "#e89c3f",
+      "secondary": "#A284DF",
       "github": "#2dcfff",
-      "mainBg": "#213f4e",
+      "mainBg": "#3D2AA8",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",
       "success": "#4CAF50"
