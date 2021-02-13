@@ -74,10 +74,10 @@ Veja o arquivo **`package.json`** .
 
 ```sh
 # Executando o website:
-$ npm run dev
+$ npm run start
 
 # ou
-$ yarn dev
+$ yarn start
 ```
 
 > Se o browser não abrir automaticamente, acesse: http://localhost:3000.
