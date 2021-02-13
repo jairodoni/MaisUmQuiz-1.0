@@ -120,7 +120,7 @@ function QuestionWidget({ screenState, setScreenState, addResult, outQuestions  
                 <input 
                   id={alternativeId} 
                   name={questionId} 
-                  onChange={() => setSelectedAlternative(alternativeIndex)}
+                  onClick={() => setSelectedAlternative(alternativeIndex)}
                   type="radio" 
                 />
                 {alternative}
